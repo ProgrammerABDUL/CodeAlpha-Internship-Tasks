@@ -1,0 +1,67 @@
+/* 4k Design */
+@media only screen and (min-width:2560px) {
+    .box {
+        width: 670px;
+        height: 905px;
+        border-radius: 60px;
+    }
+
+    .btn {
+        width: 140px;
+        height: 115px;
+        font-size: 25pt;
+        border-radius: 19px;
+        margin: 1px 3px;
+    }
+
+    .row {
+        margin: 16px 35px;
+    }
+
+    .row input {
+        width: 590px;
+        margin: 15px 0px;
+        height: 120px;
+        font-size: 40pt;
+        border-top-right-radius: 40px;
+        border-top-left-radius: 40px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+
+    .px-75 {
+        padding: 195px;
+    }
+}
+
+/* Small-Mobile Design */
+@media only screen and (max-width:320px) {
+    .px-75 {
+        padding: 85px 0px;
+    }
+
+    body {
+        margin: 0px;
+    }
+
+    .box {
+        width: 290px;
+    }
+
+    .row input {
+        width: 265px;
+        height: 30px;
+        font-size: 20pt;
+        margin: 10px 6px;
+    }
+
+    .btn {
+        width: 60px;
+        border-radius: 10px;
+        font-size: smaller;
+    }
+
+    .row {
+        margin: 8px 7px;
+    }
+}
